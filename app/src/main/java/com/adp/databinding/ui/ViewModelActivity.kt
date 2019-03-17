@@ -12,10 +12,8 @@ class ViewModelActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Obtain ViewModel from ViewModelProviders
         val viewModel = ViewModelProviders.of(this).get(ProfileObservableViewModel::class.java)
 
-        // Obtain binding
         val binding: ViewmodelProfileBinding = DataBindingUtil.setContentView(this, R.layout.viewmodel_profile)
 
         // Bind layout with ViewModel

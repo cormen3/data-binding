@@ -11,7 +11,7 @@ import com.adp.databinding.databinding.ObservableFieldProfileBinding
 
 class ObservableFieldActivity : AppCompatActivity() {
 
-    private val observableFieldProfile = ObservableFieldProfile("Ada", "Lovelace", ObservableInt(0))
+    private val observableFieldProfile = ObservableFieldProfile("hossein", "gheisary", ObservableInt(0))
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
