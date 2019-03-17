@@ -21,7 +21,6 @@ object BindingAdapters {
      */
     @BindingAdapter("app:popularityIcon")
     @JvmStatic fun popularityIcon(view: ImageView, popularity: Popularity) {
-
         val color = getAssociatedColor(popularity, view.context)
 
         ImageViewCompat.setImageTintList(view, ColorStateList.valueOf(color))

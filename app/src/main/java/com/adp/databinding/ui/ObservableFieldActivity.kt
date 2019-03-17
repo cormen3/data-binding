@@ -16,8 +16,7 @@ class ObservableFieldActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val binding: ObservableFieldProfileBinding =
-                DataBindingUtil.setContentView(this, R.layout.observable_field_profile)
+        val binding: ObservableFieldProfileBinding = DataBindingUtil.setContentView(this, R.layout.observable_field_profile)
         binding.user = observableFieldProfile
     }
 
