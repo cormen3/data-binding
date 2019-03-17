@@ -8,7 +8,7 @@
 
         <variable
             name="viewmodel"
-            type="com.adp.databinding.data.ProfileObservableViewModel"/>
+            type="com.adp.databinding.ui.ProfileObservableViewModel"/>
     </data>
 
     <android.support.constraint.ConstraintLayout

@@ -1,15 +1,16 @@
-package com.adp.databinding.data
+package com.adp.databinding.ui
 
 import android.databinding.Bindable
 import android.databinding.ObservableField
 import android.databinding.ObservableInt
 import com.adp.databinding.BR
-import com.adp.databinding.util.ObservableViewModel
+import com.adp.databinding.data.ObservableViewModel
+import com.adp.databinding.model.Popularity
 import com.adp.databinding.util.increment
 
 class ProfileObservableViewModel : ObservableViewModel() {
-    val name = ObservableField("Ada")
-    val lastName = ObservableField("Lovelace")
+    val name = ObservableField("hossein")
+    val lastName = ObservableField("gheisary")
     val likes =  ObservableInt(0)
 
     fun onLike() {

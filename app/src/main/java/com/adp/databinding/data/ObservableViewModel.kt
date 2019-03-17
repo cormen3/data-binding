@@ -1,4 +1,4 @@
-package com.adp.databinding.util
+package com.adp.databinding.data
 
 import android.arch.lifecycle.ViewModel
 import android.databinding.Bindable

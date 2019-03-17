@@ -1,4 +1,4 @@
-package com.adp.databinding.data
+package com.adp.databinding.model
 
 enum class Popularity {
     NORMAL,

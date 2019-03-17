@@ -5,7 +5,6 @@ import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.adp.databinding.R
-import com.adp.databinding.data.ProfileObservableViewModel
 import com.adp.databinding.databinding.ViewmodelProfileBinding
 
 class ViewModelActivity : AppCompatActivity() {
